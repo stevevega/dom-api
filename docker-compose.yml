@@ -1,0 +1,10 @@
+version: '2'
+services:
+    dom-api:
+        build: .
+        image: huli/dom-api:latest
+        ports:
+            - "8000:8000"
+
+    redis:
+        image: redis:2
