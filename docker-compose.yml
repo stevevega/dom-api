@@ -2,7 +2,7 @@ version: '2'
 services:
     dom-api:
         build: .
-        image: huli/dom-api
+        image: stevevega/dom-api
         ports:
             - "8000:8000"
 
